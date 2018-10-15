@@ -4730,7 +4730,7 @@
 /* 86 */
 /***/ function(module, exports) {
 
-	module.exports = "<!-- adds client side routing navigation with the iref and iref-params attributes -->\n<a iref=\"stories\" $iref-params=\"{type: 'top'}\"><b>Hacker News</b></a>\n<a iref=\"stories\" $iref-params=\"{type: 'new'}\">new</a>\n| <a iref=\"stories\" $iref-params=\"{type: 'show'}\">show</a>\n| <a iref=\"stories\" $iref-params=\"{type: 'ask'}\">ask</a>\n| <a iref=\"stories\" $iref-params=\"{type: 'job'}\">jobs</a>\n<span>\n  <a href=\"http://nx-framework.com\" target=\"_blank\">Built with NX</a> |\n  <a href=\"https://github.com/nx-hacker-news/nx-hacker-news.github.io\">Source</a>\n</span>\n"
+	module.exports = "<!-- adds client side routing navigation with the iref and iref-params attributes -->\n<a iref=\"stories\" $iref-params=\"{type: 'top'}\"><b>Hacker News</b></a>\n<a iref=\"stories\" $iref-params=\"{type: 'new'}\">new</a>\n| <a iref=\"stories\" $iref-params=\"{type: 'show'}\">show</a>\n| <a iref=\"stories\" $iref-params=\"{type: 'ask'}\">ask</a>\n| <a iref=\"stories\" $iref-params=\"{type: 'job'}\">jobs</a>\n<span>\n  <a href=\"http://nx-framework.com\" target=\"_blank\">Built with NX</a> |\n  <a href=\"https://github.com/prestonw/wp-plugin-ranking/">Source</a>\n</span>\n"
 
 /***/ },
 /* 87 */
