@@ -1,14 +1,14 @@
 {
-  "name": "hackernews-example",
+  "name": "WP-Plugin-Ranking",
   "version": "1.0.0",
-  "description": "NX implementation of Hacker News",
+  "description": "WP Plugin Ranking based on Hacker News",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
     "prestart": "npm run build",
     "start": "node server.js"
   },
-  "author": "Miklos Bertalan",
+  "author": "Will Preston",
   "license": "MIT",
   "dependencies": {
     "compression": "^1.6.2",
