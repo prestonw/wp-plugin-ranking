@@ -4666,7 +4666,7 @@
 	nx.components.app({
 	  template: __webpack_require__(82),
 	  style: __webpack_require__(83)
-	}).register('hacker-news')
+	}).register('wp-plugins')
 
 	// register two custom filters, that can be used inside expressions
 	nx.utils.compiler.filter('host', hostFilter)
