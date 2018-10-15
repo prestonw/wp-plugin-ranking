@@ -1,6 +1,6 @@
-# Hacker News example
+# WP Plugin Ranking
 
-[Live demo](https://nx-js.github.io/hackernews-example/)
+[Live demo]()
 
 A Hacker News clone built with [NX](http://nx-framework.com), which
 features client-side routing, real-time updates and animations.
