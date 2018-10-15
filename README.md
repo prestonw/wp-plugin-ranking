@@ -1,6 +1,6 @@
 # WP Plugin Ranking
 
-[Live demo]()
+[Live demo](https://prestonw.github.io/wp-plugin-ranking)
 
 A Hacker News clone built with [NX](http://nx-framework.com), which
 features client-side routing, real-time updates and animations.
