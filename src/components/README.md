@@ -7,7 +7,7 @@ None of the above structuring and naming pattern is mandatory for NX. I simply c
 
 This is what each of the components is responsible for.
 
-  - [hacker-news](/src/components/hackerNews): The top level component.
+  - [wp-plugins](/src/components/wp-plugins): The top level component.
   Adds some global filters and renders the main view.
   - [app-nav](/src/components/appNav): Renders the navbar view.
   - [app-router](/src/components/appRouter): A very basic router component.

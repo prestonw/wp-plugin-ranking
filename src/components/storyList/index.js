@@ -3,7 +3,7 @@
 nx.components.page({
   template: require('./view.html'),
   style: require('./style.css'),
-  title: 'Stories | Hacker News',
+  title: 'Ranking | WP Plugins',
   params: {
     type: {url: true, history: true, default: 'top'},
     page: {url: true, history: false, type: 'number', default: 0}

@@ -3,7 +3,7 @@
 nx.components.page({
   template: require('./view.html'),
   style: require('./style.css'),
-  title: 'User page | Hacker News',
+  title: 'Account | WP Plugins',
   params: {
     id: {url: true, readOnly: true, required: true}
   }
