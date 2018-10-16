@@ -2,7 +2,7 @@
   <div enter-animation="fadeIn .6s">
     <div class="header light">
       <a iref="../user" $iref-params="{id: comment.by}">${comment.by}</a>
-      <a iref="../story" $iref-params="{id: comment.id}">${comment.time | timeAgo} ago</a>
+      <a iref="../plugins" $iref-params="{id: comment.id}">${comment.time | timeAgo} ago</a>
       <a #click="hidden = !hidden">@{hidden ? '[+]' : '[-]'}</a>
     </div>
     <div @hidden>

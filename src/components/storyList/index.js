@@ -13,8 +13,8 @@ nx.components.page({
 // this is a custom middleware
 // it loads stories when the store broadcasts an update event or when the 'type' or 'page' parameters change
 function setup (elem, state) {
-  store.on('stories-updated', loadStories)
-  elem.$cleanup(() => store.removeListener('stories-updated', loadStories))
+  store.on('plugins-updated', loadStories)
+  elem.$cleanup(() => store.removeListener('plugins-updated', loadStories))
   elem.$observe(loadStories)
 
   function loadStories () {

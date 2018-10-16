@@ -14,17 +14,17 @@ const ITEMS_PER_PAGE = 30
 // fire an update event when the page becomes visible
 document.addEventListener('visibilitychange', () => {
   if (!document.hidden) {
-    setTimeout(() => store.emit('stories-updated'), 100)
+    setTimeout(() => store.emit('rankings-updated'), 100)
   }
 })
 
 // keep the story ids real-time updated, broadcast an event when they change
 for (let type of ['top', 'new', 'ask', 'show', 'job']) {
-  api.child(`${type}stories`).on('value', snapshot => {
+  api.child(`${type}plugins`).on('value', snapshot => {
     idsByType.set(type, snapshot.val())
     // do not fire events if the page is hidden
     if (!document.hidden) {
-      store.emit('stories-updated')
+      store.emit('rankings-updated')
     }
   })
 }
@@ -55,7 +55,7 @@ function fetchIdsByType (type, page) {
     const ids = idsByType.get(type)
     return Promise.resolve(ids.slice(page * ITEMS_PER_PAGE, (page + 1) * ITEMS_PER_PAGE))
   }
-  return fetch(`${type}stories`)
+  return fetch(`${type}plugins`)
     .then(ids => ids.slice(page * ITEMS_PER_PAGE, (page + 1) * ITEMS_PER_PAGE))
 }
 
