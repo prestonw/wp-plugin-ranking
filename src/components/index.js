@@ -1,6 +1,6 @@
 'use strict'
 
-require('./hackerNews')
+require('./wp-plugins')
 require('./appRouter')
 require('./appNav')
 require('./storyList')

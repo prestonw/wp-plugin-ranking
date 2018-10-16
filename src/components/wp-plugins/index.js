@@ -6,7 +6,7 @@ const urlParser = document.createElement('a')
 nx.components.app({
   template: require('./view.html'),
   style: require('./style.css')
-}).register('hacker-news')
+}).register('wp-plugins')
 
 // register two custom filters, that can be used inside expressions
 nx.utils.compiler.filter('host', hostFilter)
