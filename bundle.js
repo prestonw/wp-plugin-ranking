@@ -3970,7 +3970,8 @@
 	const Firebase = __webpack_require__(78)
 	const EventListener = __webpack_require__(79)
 
-	const api = new Firebase('https://hacker-news.firebaseio.com/v0')
+    // https://hacker-news.firebaseio.com/v0
+	const api = new Firebase('')
 	const store = new EventListener()
 	const cache = new Map()
 	const idsByType = new Map()

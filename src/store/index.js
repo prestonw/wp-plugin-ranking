@@ -4,6 +4,7 @@
 const Firebase = require('firebase')
 const EventListener = require('events')
 
+// https://hacker-news.firebaseio.com/v0
 const api = new Firebase('')
 const store = new EventListener()
 const cache = new Map()
