@@ -4730,7 +4730,7 @@
 /* 86 */
 /***/ function(module, exports) {
 
-	module.exports = "<!-- adds client side routing navigation with the iref and iref-params attributes -->\n<a iref=\"stories\" $iref-params=\"{type: 'top'}\"><b>Hacker News</b></a>\n<a iref=\"stories\" $iref-params=\"{type: 'new'}\">new</a>\n| <a iref=\"stories\" $iref-params=\"{type: 'show'}\">show</a>\n| <a iref=\"stories\" $iref-params=\"{type: 'ask'}\">ask</a>\n| <a iref=\"stories\" $iref-params=\"{type: 'job'}\">jobs</a>\n<span>\n  <a href=\"http://nx-framework.com\" target=\"_blank\">Built with NX</a> |\n  <a href=\"https://github.com/nx-hacker-news/nx-hacker-news.github.io\">Source</a>\n</span>\n"
+	module.exports = "<!-- adds client side routing navigation with the iref and iref-params attributes -->\n<a iref=\"stories\" $iref-params=\"{type: 'top'}\"><b>WP Plugins</b></a>\n<a iref=\"stories\" $iref-params=\"{type: 'new'}\">new</a>\n| <a iref=\"stories\" $iref-params=\"{type: 'show'}\">show</a>\n| <a iref=\"stories\" $iref-params=\"{type: 'ask'}\">ask</a>\n| <a iref=\"stories\" $iref-params=\"{type: 'job'}\">jobs</a>\n<span>\n"
 
 /***/ },
 /* 87 */
@@ -4747,7 +4747,7 @@
 	nx.components.page({
 	  template: __webpack_require__(89),
 	  style: __webpack_require__(90),
-	  title: 'Stories | Hacker News',
+	  title: 'Ranking | WP Plugins',
 	  params: {
 	    type: {url: true, history: true, default: 'top'},
 	    page: {url: true, history: false, type: 'number', default: 0}
@@ -4816,7 +4816,7 @@
 	nx.components.page({
 	  template: __webpack_require__(95),
 	  style: __webpack_require__(96),
-	  title: 'Story page | Hacker News',
+	  title: 'Review | WP Plugins',
 	  params: {
 	    id: {url: true, readOnly: true, required: true}
 	  }
@@ -4850,7 +4850,7 @@
 	nx.components.page({
 	  template: __webpack_require__(98),
 	  style: __webpack_require__(99),
-	  title: 'User page | Hacker News',
+	  title: 'Account | WP Plugins',
 	  params: {
 	    id: {url: true, readOnly: true, required: true}
 	  }
